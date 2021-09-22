@@ -15,25 +15,20 @@ Getting started
 #### Building from source
 
 To download the source files type the following command in terminal:
-    ```
-      git clone --detph 1 https://github.com/Flodur871/Atari-Breakout
-    ```
+
+    git clone --detph 1 https://github.com/Flodur871/Atari-Breakout
 
 Afterwards you should have a folder Atari-Breakout/src somewhere in your pc, extract TASM.rar bin folder content in it.
 To get there in dosbox terminal type the following commands:
     
-    ```
-      mount <disk> <disk>:/
-      cd <path>/Atari-Breakout/src
-    ```
-
+    mount <disk> <disk>:/
+    cd <path>/Atari-Breakout/src
+    
 Finally compile the project using tasm and tlink with these commands:
 
-    ```
-      tasm break.asm
-      tlink break.asm
-    ```
-
+    tasm break.asm
+    tlink break.asm
+    
 #### Playing the game
 
 1. Change your current directory to Atari-Breakout/src as instructed in the building from source section.
